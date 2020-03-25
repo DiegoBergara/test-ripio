@@ -36,11 +36,23 @@ Una vez termine corremos el siguiente
 
     docker-compose up
 
+Tambien se puede iniciar por separado, desde la carpeta `frontend` abrir una consola de comandos e introducir los siguientes comandos:
+
+    npm install
+    npm start
+
+(Para iniciar de esta manera es necesario tenes instalado `node.js`)
+
+Y desde la carpeta `api` en una consola de comandos ingresar:
+
+    python manage.py runserver
+
+(Para iniciar de estamanera es necesario tener instalados los requerimientos indicados en `requirements.txt`
 Al terminar de correr podremos acceder a:
 
 - frontend: http://localhost:3000/
 
-- backend: http://localhost:8000/admim
+- backend: http://localhost:8000/admin
 
 las credenciales para django son user y password `admin`
 
